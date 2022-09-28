@@ -1,0 +1,15 @@
+.background {
+    background-color: chocolate;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.size-limit {
+    height: 20rem;
+    width: 20rem;
+}
