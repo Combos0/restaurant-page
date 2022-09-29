@@ -5,10 +5,12 @@ module.exports = {
   entry: {
     index: './src/index.js',
     loader: './src/loader.js',
+    contact: './src/contact.js',
+    menu: './src/menu.js',
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Output Management',
+      title: 'Combos BBQ Pit',
     }),
   ],
   output: {
